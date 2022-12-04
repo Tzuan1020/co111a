@@ -15,4 +15,9 @@ CHIP Bit {
 
     PARTS:
     // Put your code here:
+    //此程式參考圖片所繪出 https://zhongchuyun.gitbooks.io/nand2tetris/content/FF2BE58B-FBA9-4DED-8767-60E5BBFAA6D0.png
+    Mux(a=DffOut, b=in, sel=load, out=MuxOut);
+    DFF(in=MuxOut, out=DffOut, out=out);
+    
+    
 }

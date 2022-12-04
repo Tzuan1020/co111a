@@ -17,4 +17,15 @@ CHIP PC {
 
     PARTS:
     // Put your code here:
+    //此程式是參考圖片所完成 https://nand2tetris-hdl.github.io/#pc
+    Inc16(in=regOut, out=incOut);
+    Mux16(a=regOut, b=incOut, sel=inc, out=Mux1);
+    Mux16(a=Mux1, b=in, sel=load, out=Mux2);
+    Mux16(a=Mux2, b=false, sel=reset, out=Mux3);
+    Register(in=Mux3, load=true, out=regOut, out=out);
+    
+    
+    
+    
+    
 }

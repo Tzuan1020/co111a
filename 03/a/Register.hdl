@@ -15,6 +15,7 @@ CHIP Register {
 
     PARTS:
     // Put your code here:
+    //此程式是看完網路上的程式碼經理解後所完成 https://nand2tetris-hdl.github.io/#reg
     Bit(in=in[0], load=load, out=out[0]);
     Bit(in=in[1], load=load, out=out[1]);
     Bit(in=in[2], load=load, out=out[2]);

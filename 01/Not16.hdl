@@ -14,6 +14,7 @@ CHIP Not16 {
 
     PARTS:
     // Put your code here:
+    //此程式為上網搜尋圖片經自行理解後所完成(原創)
     Not(in=in[15], out=out[15]);
     Not(in=in[14], out=out[14]);
     Not(in=in[13], out=out[13]);

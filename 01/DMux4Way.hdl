@@ -17,6 +17,7 @@ CHIP DMux4Way {
 
     PARTS:
     // Put your code here:
+    //此程式是參考圖片所完成: https://nand2tetris-hdl.github.io/#dmux4
     DMux(in=in, sel=sel[1], a=x, b=y);
     DMux(in=x, sel=sel[0], a=a, b=b);
     DMux(in=y, sel=sel[0], a=c, b=d);

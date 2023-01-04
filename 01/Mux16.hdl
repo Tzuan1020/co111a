@@ -15,6 +15,7 @@ CHIP Mux16 {
 
     PARTS:
     // Put your code here:
+    //此程式為上網搜尋圖片經自行理解後所完成(原創)
     Mux(a=a[15], b=b[15], sel=sel, out=out[15]);
     Mux(a=a[14], b=b[14], sel=sel, out=out[14]);
     Mux(a=a[13], b=b[13], sel=sel, out=out[13]);

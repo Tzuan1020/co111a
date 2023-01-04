@@ -17,6 +17,7 @@ CHIP Mux4Way16 {
 
     PARTS:
     // Put your code here:
+    //此程式是參考圖片所完成: https://nand2tetris-hdl.github.io/#mux416
 
     Mux16(a=a, b=b, sel=sel[0], out=x);
     Mux16(a=c, b=d, sel=sel[0], out=y);

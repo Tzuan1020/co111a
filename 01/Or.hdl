@@ -15,6 +15,7 @@ CHIP Or {
 
     PARTS:
     // Put your code here:
+    //此程式為上網搜尋圖片經自行理解後所完成(原創)
     Nand(a=a, b=a, out=nanda);
     Nand(a=b, b=b, out=nandb);
     Nand(a=nanda, b=nandb, out=out);

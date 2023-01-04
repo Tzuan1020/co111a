@@ -14,6 +14,7 @@ CHIP Xor {
 
     PARTS:
     // Put your code here:
+    //此程式為上網搜尋圖片經自行理解後所完成(原創)
     Not(in=b,out=outb);
     And(a=a, b=outb, out=anda);
     Not(in=a, out=outa);

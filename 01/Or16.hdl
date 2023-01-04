@@ -14,8 +14,7 @@ CHIP Or16 {
 
     PARTS:
     // Put your code here:
-    //此程式為上網搜尋圖片經自行理解後所完成(原創)
-    Or(a=a[15], b=b[15], out=out[15]);
+    //此程式為上網搜尋圖片經自行理解後所完成
     Or(a=a[14], b=b[14], out=out[14]);
     Or(a=a[13], b=b[13], out=out[13]);
     Or(a=a[12], b=b[12], out=out[12]);

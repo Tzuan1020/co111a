@@ -14,6 +14,7 @@ CHIP HalfAdder {
 
     PARTS:
     // Put you code here:
+    //此程式是參考圖片所完成 https://www.javatpoint.com/half-adder-in-digital-electronics
     Xor(a=a, b=b, out=sum);
     And(a=a, b=b, out=carry);
 }

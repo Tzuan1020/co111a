@@ -14,6 +14,7 @@ CHIP FullAdder {
 
     PARTS:
     // Put you code here:
+    //此程式是參考圖片所完成 https://www.javatpoint.com/full-adder-in-digital-electronics
     HalfAdder(a=a, b=b, sum=x, carry=y);
     HalfAdder(a=x, b=c, sum=sum, carry=z);
     Or(a=y, b=z, out=carry);

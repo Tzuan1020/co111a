@@ -14,6 +14,7 @@ CHIP Inc16 {
 
     PARTS:
    // Put you code here:
+   //此程式是經由同學講解所完成
    HalfAdder(a=in[0], b=true, sum=out[0], carry=carry0);
    HalfAdder(a=in[1], b=carry0, sum=out[1], carry=carry1);
    HalfAdder(a=in[2], b=carry1, sum=out[2], carry=carry2);

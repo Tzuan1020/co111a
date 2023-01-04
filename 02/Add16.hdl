@@ -14,6 +14,7 @@ CHIP Add16 {
 
     PARTS:
    // Put you code here:
+   //此程式為參考圖片後所完成 https://tomorrow0w0.gitbooks.io/nand2tetris-homework/content/chapter2/Add16.html
    HalfAdder(a=a[0], b=b[0], sum=out[0], carry=carry);
    FullAdder(a=a[1], b=b[1], c=carry, sum=out[1], carry=carry1);
    FullAdder(a=a[2], b=b[2], c=carry1, sum=out[2], carry=carry2);
